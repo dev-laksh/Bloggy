@@ -1,0 +1,27 @@
+:root{
+    --primary-color1: #F97F51;
+    --primary-color2: #FEA47F;
+    --text-color: #2C3A47;
+    --logo-font: 'MuseoModerno', cursive;
+    --cursive-font: 'Dancing Script', cursive;
+    --code-font: 'Turret Road', cursive;
+    --font-etc1: 'Grandstander', cursive;
+    --font-etc-2: 'Grenze Gotisch', cursive; 
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-auto{
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
