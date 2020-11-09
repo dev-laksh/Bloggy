@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search results for</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"
+        defer>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital@1&family=Lemonada:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #FEA47F;
+        }
+
+        /* Search Bar */
+
+        .search-box {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #2f3640;
+            height: 40px;
+            border-radius: 40px;
+            padding: 10px;
+        }
+
+        .search-btn {
+            color: #e84118;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #2f3640;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            transition: 0.4s;
+            border: 0px;
+            background: white;
+        }
+
+        .search-txt {
+            border: none;
+            background: none;
+            outline: none;
+            float: left;
+            padding: 0;
+            color: white;
+            font-size: 16px;
+            transition: 0.4s;
+            line-height: 40px;
+            width: 450px;
+            padding: 0 6px;
+        }
+
+        /*  */
+
+        .content {
+            height: 395px;
+            /* background-color: #FEA47F; */
+            display: flex;
+            margin-top: 32px;
+            padding: 9px;
+            position: relative;
+        }
+
+        .content::after {
+            content: '';
+            background-image: url('https://source.unsplash.com/900x900/?web devlopment,typing');
+            position: absolute;
+            width: 900px;
+            height: inherit;
+            opacity: 0.15;
+            border-radius: 12px;
+        }
+
+        .cont-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 50px;
+        }
+
+        .cont-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cont-right img {
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 159px;
+        }
+
+        .homeArticles {
+            height: 500px;
+            display: block;
+            padding-top: 12px;
+        }
+
+        .homeArticles h2 {
+            font-family: 'Turret Road', cursive;
+            ;
+            color: #2C3A47;
+        }
+
+        .homeArticle img {
+            width: 400px;
+            max-width: 500px;
+        }
+
+        .homeArticle {
+            font-family: 'Dancing Script', cursive;
+            display: flex;
+            padding: 12px;
+            margin: 25px;
+            background-color: #FD7272;
+        }
+
+        .blogDetail {
+            font-family: 'Grandstander', cursive;
+            padding: 22px;
+        }
+
+        .haContent {
+            align-self: center;
+            padding: 40px;
+            border: 2px solid black;
+        }
+
+        .haContent a {
+            text-decoration: none;
+            color: #2C3A47;
+        }
+
+        .max-width-1 {
+            max-width: 80vw;
+        }
+
+        .m-auto {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="nav-right">
+            <form action="search.html" method="get">
+                <div class="search-box">
+                    <input type="text" placeholder="Type to search" class="search-txt" name="query">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </header>
+    <br><br><br><br><br><br><br><br>
+    <div class="homeArticles max-width-1 m-auto">
+        <h2>Searched results</h2>
+        <div class="homeArticle">
+            <img src="http://localhost:5500/assets/vecteezy_collection-of-linear-style-web-page-and-other-minimal-vector-elements-with-colorful-backgrounds_152864/16.svg"
+                alt="">
+            <div class="haContent">
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita illum error fugiat neque
+                    corrupti rerum, reprehenderit, quidem laboriosam inventore ipsa sequi ut quia accusamus fuga
+                    vero voluptatibus hic soluta quas, quo saepe esse fugit rem? Necessitatibus inventore doloremque
+                    voluptates alias, dicta, porro, atque nihil et possimus nisi quis laudantium? Impedit?</p>
+                <span class="blogDetail">Author name</span>
+                <span class="blogDetail">6 min read</span>
+            </div>
+        </div>
+        <div class="homeArticle">
+            <img src="http://localhost:5500/assets/vecteezy_collection-of-thin-line-style-web-icons-in-minimal-design-and-with-colorful-backgrounds-hope-you-can-use-it-in-your-next-project_152185/37.svg"
+                alt="">
+            <div class="haContent">
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita illum error fugiat neque
+                    corrupti rerum, reprehenderit, quidem laboriosam inventore ipsa sequi ut quia accusamus fuga
+                    vero voluptatibus hic soluta quas, quo saepe esse fugit rem? Necessitatibus inventore doloremque
+                    voluptates alias, dicta, porro, atque nihil et possimus nisi quis laudantium? Impedit?</p>
+                <span class="blogDetail">Author name</span>
+                <span class="blogDetail">6 min read</span>
+            </div>
+        </div>
+        <div class="homeArticle">
+            <img src="http://localhost:5500/assets/vecteezy_outline-or-line-art-design-for-world-development-information-day-with-globe-and-flying-technology-information-outline-icon_837798/Information_48.jpg"
+                alt="">
+            <div class="haContent">
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita illum error fugiat neque
+                    corrupti rerum, reprehenderit, quidem laboriosam inventore ipsa sequi ut quia accusamus fuga
+                    vero voluptatibus hic soluta quas, quo saepe esse fugit rem? Necessitatibus inventore doloremque
+                    voluptates alias, dicta, porro, atque nihil et possimus nisi quis laudantium? Impedit?</p>
+                <span class="blogDetail">Author name</span>
+                <span class="blogDetail">6 min read</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
